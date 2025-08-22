@@ -4,7 +4,7 @@ A classic machine learning project to predict passenger survival on the Titanic,
 
 ---
 
-🌟 Project Overview
+## 🌟 Project Overview
 
 This repository contains a complete data science workflow for predicting survival on the Titanic. The project tackles a supervised classification problem by analyzing a dataset of passenger information and using it to train a machine learning model. The goal is to build a model that can accurately predict whether a passenger survived or not, given their characteristics such as age, gender, and class.
 
@@ -18,7 +18,45 @@ The workflow includes:
 
 ---
 
-🛠️ Technologies Used
+## 📊 Dataset
+
+Source link: https://www.kaggle.com/competitions/titanic/data
+
+The project utilizes the Titanic Survival Prediction dataset, which is publicly available on Kaggle. It is typically split into two files:
+
+- train.csv: Contains the training data with the survival outcome for each passenger.
+
+- test.csv: Contains the testing data without the survival outcome, used for making predictions.
+
+The dataset includes a variety of features, such as:
+
+- PassengerId: A unique ID for each passenger.
+
+- Survived: The target variable, indicating survival (0 = No, 1 = Yes).
+
+- Pclass: The passenger's ticket class (1, 2, or 3).
+
+- Name: The passenger's name.
+
+- Sex: The passenger's gender.
+
+- Age: The passenger's age in years.
+
+- SibSp: Number of siblings/spouses aboard.
+
+- Parch: Number of parents/children aboard.
+
+- Ticket: The ticket number.
+
+- Fare: The passenger fare.
+
+- Cabin: The cabin number.
+
+- Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+
+---
+
+## 🛠️ Technologies Used
 
 - Python: The primary programming language for the project.
 
@@ -38,7 +76,7 @@ The workflow includes:
 
 ---
 
-🧠 Deep Learning Model: Multi-Layer Perceptron (MLP) Features
+## 🧠 Deep Learning Model: Multi-Layer Perceptron (MLP) Features
 
 The MLP model introduces advanced capabilities for improved prediction accuracy. Key features of this implementation include:
 
